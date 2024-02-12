@@ -22,5 +22,16 @@ namespace ClassLibrary1
             Console.WriteLine(Name + "hides in it's shell.");
         }
 
+        public void Meet(Chimpanzee newFriend)
+        {
+            Console.WriteLine(Name + "hides at" + newFriend.Name);
+        }
+
+        public void Meet(Cat newFriend)
+        {
+            Console.WriteLine(Name + "stares at" + newFriend.Name);
+        }
+
+       
     }
 }

@@ -16,5 +16,20 @@ namespace ClassLibrary1
         {
             Console.WriteLine(Name + "hoots at you.");
         }
+
+        public void Swings()
+        {
+            Console.WriteLine(Name + "swings at you.");
+        }
+
+        public void Meet(Turtle newFriend)
+        {
+            Console.WriteLine(Name + "plays at" + newFriend.Name);
+        }
+
+        public void Meet(Cat newFriend)
+        {
+            Console.WriteLine(Name + "throws at" + newFriend.Name);
+        }
     }
 }

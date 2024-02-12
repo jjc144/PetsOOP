@@ -24,7 +24,7 @@ Console.WriteLine("4. Exit");
             switch (input2)
             {
                 case "1":
-                    Cat newCar = new Cat(petname);
+                    Cat newCat = new Cat(petname);
                     break;
                 case "2":
                     Chimpanzee newChimp = new Chimpanzee(petname);
